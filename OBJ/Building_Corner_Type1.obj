@@ -1,0 +1,20 @@
+# Blender v2.83.0 OBJ File: 'Dzerofives_Low_Poly_City.blend'
+# www.blender.org
+mtllib Building_Corner_Type1.mtl
+o Building_Corner_Type1_Cube.011
+v -0.000000 0.000000 -0.500000
+v -0.000000 3.000000 -0.500000
+v 0.500000 0.000000 -0.500000
+v 0.500000 3.000000 -0.500000
+v 0.500000 0.000000 -0.000000
+v 0.500000 3.000000 -0.000000
+vt 0.093750 0.656250
+vt 0.093750 0.656250
+vt 0.093750 0.656250
+vt 0.093750 0.656250
+vt 0.093750 0.656250
+vt 0.093750 0.656250
+usemtl MAT_Lowpoly_City_Pack
+s off
+f 1/1 2/2 4/3 3/4
+f 3/4 4/3 6/5 5/6
