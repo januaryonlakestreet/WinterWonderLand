@@ -1,0 +1,15 @@
+# Blender v2.83.0 OBJ File: 'Dzerofives_Low_Poly_City.blend'
+# www.blender.org
+mtllib Window_Light.mtl
+o Window_Light_Plane.003
+v 0.000000 2.000000 1.000000
+v 0.000000 -0.000000 1.000000
+v -0.000000 2.000000 -1.000000
+v 0.000000 0.000000 -1.000000
+vt 0.031250 0.031250
+vt 0.031250 0.031250
+vt 0.031250 0.031250
+vt 0.031250 0.031250
+usemtl MAT_Lowpoly_City_Pack
+s off
+f 1/1 2/2 4/3 3/4

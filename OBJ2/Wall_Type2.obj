@@ -1,0 +1,15 @@
+# Blender v2.83.0 OBJ File: 'Dzerofives_Low_Poly_City.blend'
+# www.blender.org
+mtllib Wall_Type2.mtl
+o Wall_Type2_Cube.059
+v 0.062500 0.000000 1.000000
+v 0.062500 3.000000 1.000000
+v 0.062500 0.000000 -1.000000
+v 0.062500 3.000000 -1.000000
+vt 0.093750 0.656250
+vt 0.093750 0.656250
+vt 0.093750 0.656250
+vt 0.093750 0.656250
+usemtl MAT_Lowpoly_City_Pack
+s off
+f 3/1 4/2 2/3 1/4
