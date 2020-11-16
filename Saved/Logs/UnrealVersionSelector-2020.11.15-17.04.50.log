@@ -1,0 +1,57 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.6.30204.135, Sort=0)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801 (Version=14.26.28806)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 8.1 SDK at C:\Program Files (x86)\Windows Kits\8.1
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at D:\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at D:\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.10240.0 at D:\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.17763.0 at D:\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.17763.0 at D:\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.18362.0 at D:\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.18362.0 at D:\Windows Kits\10
+DynamicCompilation.RequiresCompilation: Compiling D:\Users\janua\Documents\Unreal Projects\WinterWonderland\WinterWonderLand\Intermediate\Build\BuildRules\WinterWonderlandModuleRules.dll: D:\Users\janua\Documents\Unreal Projects\WinterWonderland\WinterWonderLand\Source\WinterWonderland\WinterWonderland.Build.cs is newer
+DynamicCompilation.CompileAssembly: While compiling D:\Users\janua\Documents\Unreal Projects\WinterWonderland\WinterWonderLand\Intermediate\Build\BuildRules\WinterWonderlandModuleRules.dll:
+DynamicCompilation.CompileAssembly: d:\Users\janua\Documents\Unreal Projects\WinterWonderland\WinterWonderLand\Source\WinterWonderland\WinterWonderland.Build.cs(19,17) : error CS0103: The name 'bUsesSteam' does not exist in the current context
+DynamicCompilation.CompileAssembly: d:\Users\janua\Documents\Unreal Projects\WinterWonderland\WinterWonderLand\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\OpenVRSDK.Build.cs(43,3) : warning CS0618: 'UnrealBuildTool.ModuleRules.PublicLibraryPaths' is obsolete: 'For external libraries use the full path in PublicAdditionalLibraries, if its a system library then use PublicSystemLibraries/PublicSystemLibraryPaths'
+UnrealBuildTool.Main: ERROR: Unable to compile source files.
+UnrealBuildTool.Main: BuildException: Unable to compile source files.
+UnrealBuildTool.Main:    at UnrealBuildTool.DynamicCompilation.CompileAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean TreatWarningsAsErrors) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:line 383
+UnrealBuildTool.Main:    at UnrealBuildTool.DynamicCompilation.CompileAndLoadAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean DoNotCompile, Boolean TreatWarningsAsErrors) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:line 450
+UnrealBuildTool.Main:    at UnrealBuildTool.RulesAssembly..ctor(RulesScope Scope, List`1 BaseDirs, IReadOnlyList`1 Plugins, Dictionary`2 ModuleFileToContext, List`1 TargetFiles, FileReference AssemblyFileName, Boolean bContainsEngineModules, Nullable`1 DefaultBuildSettings, Boolean bReadOnly, Boolean bSkipCompile, RulesAssembly Parent) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 110
+UnrealBuildTool.Main:    at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 603
+UnrealBuildTool.Main:    at UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 2288
+UnrealBuildTool.Main:    at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 753
+UnrealBuildTool.Main:    at UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:line 198
+UnrealBuildTool.Main:    at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 550
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.031) <unknown>
+Timeline.Print: [ 0.031](+0.075) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.108](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.108](+0.054) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.108          [ 0.000](+0.025) Initializing InstalledPlatformInfo
+Timeline.Print:   0.134          [ 0.026](+0.000) Querying types
+Timeline.Print:   0.136          [ 0.027](+0.001) XXXPlatformFactory
+Timeline.Print:   0.137          [ 0.029](+0.000) MacPlatformFactory
+Timeline.Print:   0.137          [ 0.029](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.137          [ 0.029](+0.016) AndroidPlatformFactory
+Timeline.Print:   0.154          [ 0.046](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.154          [ 0.046](+0.003) IOSPlatformFactory
+Timeline.Print:   0.157          [ 0.049](+0.003) LinuxPlatformFactory
+Timeline.Print:   0.161          [ 0.053](+0.000) LuminPlatformFactory
+Timeline.Print:   0.161          [ 0.053](+0.001) WindowsPlatformFactory
+Timeline.Print: [ 0.162](+0.249) <unknown>
+Timeline.Print: [ 0.412](+0.001) Finding engine modules
+Timeline.Print: [ 0.413](+0.002) Finding plugin modules
+Timeline.Print: [ 0.416](+0.032) <unknown>
+Timeline.Print: [ 0.449](+0.000) Finding program modules
+Timeline.Print: [ 0.449](+0.000) Finding program targets
+Timeline.Print: [ 0.449](+0.209) <unknown>
+Timeline.Print: [ 0.659](+0.063) Compiling rules assembly (WinterWonderlandModuleRules.dll)
+Timeline.Print: [ 0.733](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 0.736]

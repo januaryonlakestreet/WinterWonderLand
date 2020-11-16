@@ -1,0 +1,4 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\janua\Documents\Unreal Projects\WinterWonderland\WinterWonderLand).
+  Creating makefile for WinterWonderlandEditor (no existing makefile)
+UnrealBuildTool : error : Unable to find plugin 'SteamVR' (referenced via WinterWonderland.uproject -> SteamVRInput.uplugin). Install it and try again, or remove it from the required plugin list.
+d:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command "D:\UE_4.25\Engine\Build\BatchFiles\Build.bat WinterWonderlandEditor Win64 Development -Project="D:\Users\janua\Documents\Unreal Projects\WinterWonderland\WinterWonderLand\WinterWonderland.uproject" -WaitMutex -FromMsBuild" exited with code 6.

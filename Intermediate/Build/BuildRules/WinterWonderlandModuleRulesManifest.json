@@ -1,0 +1,11 @@
+{
+	"SourceFiles": [
+		"D:\\Users\\janua\\Documents\\Unreal Projects\\WinterWonderland\\WinterWonderLand\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
+		"D:\\Users\\janua\\Documents\\Unreal Projects\\WinterWonderland\\WinterWonderLand\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\AdvancedSteamSessions.Build.cs",
+		"D:\\Users\\janua\\Documents\\Unreal Projects\\WinterWonderland\\WinterWonderLand\\Plugins\\steamvr_unreal_plugin-1.8_4.23\\SteamVRInput\\Source\\SteamVRInput\\SteamVRInput.Build.cs",
+		"D:\\Users\\janua\\Documents\\Unreal Projects\\WinterWonderland\\WinterWonderLand\\Plugins\\steamvr_unreal_plugin-1.8_4.23\\SteamVRInput\\Source\\SteamVRInputDevice\\SteamVRInputDevice.Build.cs",
+		"D:\\Users\\janua\\Documents\\Unreal Projects\\WinterWonderland\\WinterWonderLand\\Plugins\\steamvr_unreal_plugin-1.8_4.23\\SteamVRInput\\Source\\SteamVREditor\\SteamVREditor.Build.cs",
+		"D:\\Users\\janua\\Documents\\Unreal Projects\\WinterWonderland\\WinterWonderLand\\Plugins\\steamvr_unreal_plugin-1.8_4.23\\SteamVRInput\\Source\\ThirdParty\\OpenVRSDK\\OpenVRSDK.Build.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

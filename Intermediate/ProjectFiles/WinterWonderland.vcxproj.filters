@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\WinterWonderland.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A397CDCE-F544-4191-A1DC-CE5E6ADF07A0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WinterWonderland.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WinterWonderlandEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{F3805802-5020-437E-80D9-04A067270307}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\steamvr_ue_editor_app.json">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\SteamVRBindings">
+      <UniqueIdentifier>{DD9AAA4D-E457-4006-ACF5-43718818BE58}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\SteamVRBindings\gamepad.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\holographic_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\indexhmd.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\knuckles.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\oculus_touch.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\rift.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\steamvr_manifest.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_cosmos_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_pro.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_camera.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{B214AC12-9D3D-4C0D-BBCA-23DB90993A36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AdvancedSessions">
+      <UniqueIdentifier>{A290D8BB-9FC9-4065-A4C8-447C13530289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AdvancedSessions\Source">
+      <UniqueIdentifier>{71485154-FF1A-42C3-B87F-0FD29B90A1E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AdvancedSessions\Source\AdvancedSessions">
+      <UniqueIdentifier>{0C33A9ED-154B-4EFB-987F-36B8DA995E40}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSessions\Source\AdvancedSessions\Classes">
+      <UniqueIdentifier>{0613E860-C6B7-41CE-9DEC-4C8DA2E8B4B6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedExternalUILibrary.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsGameInstance.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsInterface.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsLibrary.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedGameSession.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedIdentityLibrary.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedSessions.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedSessionsLibrary.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedVoiceLibrary.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\BlueprintDataDefinitions.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\CancelFindSessionsCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\CreateSessionCallbackProxyAdvanced.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\EndSessionCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\FindFriendSessionCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\FindSessionsCallbackProxyAdvanced.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\GetFriendsCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\GetRecentPlayersCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\GetUserPrivilegeCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\LoginUserCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\LogoutUserCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\OnlineSubSystemHeader.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\SendFriendInviteCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\UpdateSessionCallbackProxyAdvanced.h">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AdvancedSessions\Source\AdvancedSessions\Private">
+      <UniqueIdentifier>{5EB0B89B-83F5-4BC6-A0BF-4B59D1F0CC22}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedExternalUILibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedFriendsGameInstance.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedFriendsInterface.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedFriendsLibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedIdentityLibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedSessions.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedSessionsLibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedVoiceLibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\CancelFindSessionsCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\CreateSessionCallbackProxyAdvanced.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\EndSessionCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\FindFriendSessionCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\FindSessionsCallbackProxyAdvanced.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\GetFriendsCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\GetRecentPlayersCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\GetUserPrivilegeCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\LoginUserCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\LogoutUserCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\SendFriendInviteCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\UpdateSessionCallbackProxyAdvanced.cpp">
+      <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions.uplugin">
+      <Filter>Plugins\AdvancedSessions</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSessions\Resources">
+      <UniqueIdentifier>{C0D4CAA9-A66E-4774-82F7-C9674E235185}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AdvancedSessions\Resources\Icon128.png">
+      <Filter>Plugins\AdvancedSessions\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSteamSessions">
+      <UniqueIdentifier>{B4CAD0CE-198F-4BB1-9FB7-51C62D572A98}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AdvancedSteamSessions\AdvancedSteamSessions.uplugin">
+      <Filter>Plugins\AdvancedSteamSessions</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSteamSessions\Resources">
+      <UniqueIdentifier>{E3A52A36-8C87-4755-A2D9-7023B6F2A192}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AdvancedSteamSessions\Resources\Icon128.png">
+      <Filter>Plugins\AdvancedSteamSessions\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23">
+      <UniqueIdentifier>{08842C00-38B5-48C7-9FE2-5A32227FD472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput">
+      <UniqueIdentifier>{7686EC8B-874A-4D34-8074-55C83B9C10DE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\SteamVRInput.uplugin">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources">
+      <UniqueIdentifier>{5E22F37D-12DB-4F97-B667-237BD6D8F78E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources\Icon128.png">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources\Icon_16x.png">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources\Icon_20x.png">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources\Icon_40x.png">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources\Icon_add_sample_inputs.png">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources\Icon_launch_bindings_url.png">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources\Icon_PluginAction.png">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources\Icon_regenerate_action_manifest.png">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources\Icon_regenerate_controller_bindings.png">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources\Icon_reload_action_manifest.png">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSteamSessions\Source">
+      <UniqueIdentifier>{2663B8F7-FA41-4F41-95CA-B73CA676DB0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions">
+      <UniqueIdentifier>{5D1C7376-145B-4DE7-ACAF-B4DA018FE349}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\AdvancedSteamSessions.Build.cs">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes">
+      <UniqueIdentifier>{7C3A6778-ED7E-4B3B-8961-A60E4A826271}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamFriendsLibrary.h">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamSessions.h">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamWorkshopLibrary.h">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\SteamRequestGroupOfficersCallbackProxy.h">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\SteamWSRequestUGCDetailsCallbackProxy.h">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private">
+      <UniqueIdentifier>{24C393E3-AC2D-4473-8030-485CCD0AF5B5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamFriendsLibrary.cpp">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamSessions.cpp">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamWorkshopLibrary.cpp">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\SteamRequestGroupOfficersCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\SteamWSRequestUGCDetailsCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source">
+      <UniqueIdentifier>{77AEAFEE-E7D4-4386-BB99-9BE0E4C8B301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor">
+      <UniqueIdentifier>{66D94353-91DB-4039-9BCA-C28DD944BBEB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\SteamVREditor.Build.cs">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Private">
+      <UniqueIdentifier>{5B99D129-4A02-4E1C-B4D9-8DFF2B82BB41}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Private\AnimGraphNode_SteamVRInputAnimPose.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Private\AnimGraphNode_SteamVRSetWristTransform.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Private\SteamVREditor.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Private\SteamVREditorStyle.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public">
+      <UniqueIdentifier>{04E32960-01A4-4F5A-85E8-41C707CC96ED}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public\AnimGraphNode_SteamVRInputAnimPose.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public\AnimGraphNode_SteamVRSetWristTransform.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public\SteamVREditor.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public\SteamVREditorCommands.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public\SteamVREditorCommands.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public\SteamVREditorStyle.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVREditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInput">
+      <UniqueIdentifier>{FB4D9551-F626-4ABD-B1A1-CF98768979E1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInput\SteamVRInput.Build.cs">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInput</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInput\Private">
+      <UniqueIdentifier>{DFF763DB-1390-47F0-B2C5-7A1CDE6DB35E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInput\Private\SteamVRInput.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInput\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInput\Public">
+      <UniqueIdentifier>{6EB0573B-6CE1-49A5-86E9-9E3A273298ED}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInput\Public\SteamVRInput.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInput\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice">
+      <UniqueIdentifier>{ABF8B6E3-476E-45F2-A867-486B65B1EBC5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\SteamVRInputDevice.Build.cs">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private">
+      <UniqueIdentifier>{D52CE10D-1FA1-4EA4-9068-32FC77F1FEC5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private\AnimNode_SteamVRInputAnimPose.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private\AnimNode_SteamVRSetWristTransform.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private\SteamVRInputDevice.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private\SteamVRInputDeviceFunctionLibrary.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private\SteamVRInputDeviceModule.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private\SteamVRSkeletonDefinition.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private\SteamVRTrackingRefComponent.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private\UE4HandSkeletonDefinition.cpp">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public">
+      <UniqueIdentifier>{4C3299FB-A204-4737-9049-5AE6263133F6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\AnimNode_SteamVRInputAnimPose.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\AnimNode_SteamVRSetWristTransform.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\ISteamVRInputDeviceModule.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\SteamVRControllerKeys.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\SteamVRInputDevice.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\SteamVRInputDeviceFunctionLibrary.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\SteamVRInputPublic.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\SteamVRInputTypes.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\SteamVRKnucklesKeys.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\SteamVRSkeletonDefinition.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\SteamVRTrackingRefComponent.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public\UE4HandSkeletonDefinition.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\SteamVRInputDevice\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty">
+      <UniqueIdentifier>{BFC64ED7-33C6-44F4-A826-0BAD7CB354BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK">
+      <UniqueIdentifier>{5FED471A-5A65-4D3C-B8A1-17C270A52842}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\LICENSE">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\OpenVRSDK.Build.cs">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\OpenVRSDK.tps">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin">
+      <UniqueIdentifier>{354DCE45-38A8-4D49-97E3-45F3789FE573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux32">
+      <UniqueIdentifier>{1ADD7CB8-138C-46E0-8B61-F883E1ACC98A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux32\empty.dir">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux32</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux32\libopenvr_api.so">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux32</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux32\libopenvr_api.so.dbg">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux32</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux64">
+      <UniqueIdentifier>{19855A0D-52F3-4055-B80E-5FE95A7C0DEC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux64\empty.dir">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux64</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux64\libopenvr_api.so">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux64</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux64\libopenvr_api.so.dbg">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\linux64</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32">
+      <UniqueIdentifier>{52C0C8B2-BA35-4C27-A296-9C801680E080}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32\libopenvr_api.dylib">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32\libopenvr_api.dylib.dSYM">
+      <UniqueIdentifier>{37EB8132-5DB8-43BC-A04F-BD2CDC465FF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32\libopenvr_api.dylib.dSYM\Contents">
+      <UniqueIdentifier>{60E84753-A91A-4666-8366-A48A6ABB4A0D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32\libopenvr_api.dylib.dSYM\Contents\Info.plist">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32\libopenvr_api.dylib.dSYM\Contents</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32\libopenvr_api.dylib.dSYM\Contents\Resources">
+      <UniqueIdentifier>{E9BD7194-2E4A-4F3A-BA6B-0E11A5031AE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32\libopenvr_api.dylib.dSYM\Contents\Resources\DWARF">
+      <UniqueIdentifier>{6E4D74D0-C4C8-4045-B946-327D8E046C18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32\libopenvr_api.dylib.dSYM\Contents\Resources\DWARF\libopenvr_api.dylib">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx32\libopenvr_api.dylib.dSYM\Contents\Resources\DWARF</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64">
+      <UniqueIdentifier>{D772A61C-A4A6-4F41-9289-2E1087FA2542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework">
+      <UniqueIdentifier>{E1F03CBD-0863-4E6B-9192-567B0233E0BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Headers">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\OpenVR">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Resources">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions">
+      <UniqueIdentifier>{CF5A7330-0C16-4395-91D4-6CBD44CE693C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\Current">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A">
+      <UniqueIdentifier>{F7CEC18A-DD15-4D92-9E53-4750246BC707}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\OpenVR">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers">
+      <UniqueIdentifier>{3E6F949E-995D-4705-B64D-9C76E23D674E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers\openvr.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers\openvr_api.cs">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers\openvr_api.json">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers\openvr_capi.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers\openvr_driver.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Resources">
+      <UniqueIdentifier>{958E6756-374D-45A1-85F5-33BE264EE932}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\osx64\OpenVR.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\win32">
+      <UniqueIdentifier>{7BAF2922-DD6D-47D8-B5A2-E8EE72D05DF3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\win32\openvr_api.dll">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\win32</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\win32\openvr_api.dll.sig">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\win32</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\win64">
+      <UniqueIdentifier>{2F34018F-4EF9-4454-B88B-5D1DA8D27A40}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\win64\openvr_api.dll">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\win64\openvr_api.dll.sig">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\bin\win64</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers">
+      <UniqueIdentifier>{2404C62F-CC63-429D-A582-2216775FA5A5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers\openvr.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers\openvr_api.cs">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers</Filter>
+    </None>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers\openvr_api.json">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers\openvr_capi.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers\openvr_driver.h">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\headers</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib">
+      <UniqueIdentifier>{6E2AE71B-32DC-4769-BE3D-408F2882AFFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\linux32">
+      <UniqueIdentifier>{FF2CD4B0-4FE5-4AA8-8D96-F4D9683ED1DC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\linux32\libopenvr_api.so">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\linux32</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\linux64">
+      <UniqueIdentifier>{83EFDEA1-9BC4-49AE-9C75-2074BF3F5B90}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\linux64\libopenvr_api.so">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\linux64</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\osx32">
+      <UniqueIdentifier>{6B4D8C13-CC0E-4445-A974-3138B490707F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\osx32\libopenvr_api.dylib">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\osx32</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\win32">
+      <UniqueIdentifier>{E7DC235E-F877-48B5-8BB9-02B8A334EDB4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\win32\openvr_api.lib">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\win32</Filter>
+    </None>
+    <Filter Include="Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\win64">
+      <UniqueIdentifier>{716D39DE-95EC-499C-9601-05CC5F2F1693}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\win64\openvr_api.lib">
+      <Filter>Plugins\steamvr_unreal_plugin-1.8_4.23\SteamVRInput\Source\ThirdParty\OpenVRSDK\lib\win64</Filter>
+    </None>
+    <Filter Include="Source\WinterWonderland">
+      <UniqueIdentifier>{76A7870B-2492-468A-B8EF-DF0FA1E687F7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WinterWonderland\DedicatedServer.cpp">
+      <Filter>Source\WinterWonderland</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WinterWonderland\DedicatedServer.h">
+      <Filter>Source\WinterWonderland</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\WinterWonderland\WinterWonderland.Build.cs">
+      <Filter>Source\WinterWonderland</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\WinterWonderland\WinterWonderland.cpp">
+      <Filter>Source\WinterWonderland</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WinterWonderland\WinterWonderland.h">
+      <Filter>Source\WinterWonderland</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
