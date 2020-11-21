@@ -1,6 +1,6 @@
 {
   "FileVersion": 3,
-  "EngineVersion": "4.23.0",
+  "EngineVersion": "4.25.0",
   "Version": 1,
   "VersionName": "1.8-sdk1.8.19",
   "FriendlyName": "SteamVR Input for Unreal",
